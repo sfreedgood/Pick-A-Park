@@ -1,0 +1,98 @@
+.App {
+  min-height: 70vh;
+  position: relative;
+  height: 95vh;
+  width: 100%;
+  text-align: center;
+}
+
+.park-list{
+  display: flex;
+  justify-content: space-around;
+  align-content: space-around;
+}
+.all-parks{
+  background-color: #516b2a;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  align-items: space-around;
+  padding: 1%;
+}
+
+.park {
+  width: 90%;
+  color: black;
+  background-color: #d1d1d1;
+  text-decoration: none;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  align-self: center;
+  margin: 1% auto;
+  padding: 2%;
+}
+
+.weather {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+strong {
+  font-weight: bolder;
+}
+
+.nav {
+  font-size: 1.7rem;
+  height: 5vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.current-btn {
+  width: 50%;
+  color: #333333;
+  text-decoration: none;
+  background-color: #d1d1d1;
+}
+
+.other-btn {
+  width: 50%;
+  color: #f1f1f1;
+  text-decoration: none;
+  background-color: #414141;
+}
+
+h1{
+  margin: 1% auto;
+  background-color: #516b2a;
+  color: #f1f1f1;
+}
+
+#landing-img {
+  display: block;
+  width: 100%;
+  height: 80vh;
+  opacity: .5;
+}
+
+@media only screen and (max-device-height: 415px){
+  h1{
+    font-size: 1.5rem;
+  }
+  .nav{
+    font-size: 1.5rem;
+    height: 10vh;
+  }
+}
+
+@media only screen and (min-device-height: 815px)
+                   and (min-device-width: 1000px){
+  h1{
+    font-size: 3rem;
+  }
+  .nav{
+    font-size: 2.5rem;
+  }
+}
