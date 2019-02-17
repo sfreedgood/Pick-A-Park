@@ -2,8 +2,6 @@
 
 "Pick a Park" is an easy way to find information about National Parks in your state and look up camping information within those Parks where available.
 
-To see the completed project, please visit: http://combative-health.surge.sh/home
-
 -------------
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
